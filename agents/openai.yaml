@@ -1,0 +1,4 @@
+interface:
+  display_name: "源图几何三联构成"
+  short_description: "将原图推演为2:3黑线抽象与无轮廓色彩三联构成"
+  default_prompt: "使用 $source-geometry-triptych 将这张图片创作成2:3无外框三联图：原图、黑线几何抽象、无轮廓色彩重构。"
