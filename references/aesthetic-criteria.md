@@ -26,13 +26,13 @@ The head should read as a complete head before eyes, muzzle, ears, or hair modul
 
 ## Economy and hierarchy
 
-Every line or color plane should define structure, rhythm, tension, or emphasis. Merge weak neighboring shapes. Remove redundant divisions. Allow large quiet areas to balance concentrated complexity. Establish primary, secondary, and tertiary visual events rather than giving every element equal weight.
+Every line or color plane should define identity, support, structure, rhythm, material logic, tension, or emphasis. Merge weak neighboring shapes and remove redundant or merely descriptive divisions. Prefer clear primary forms, a restrained supporting layer of secondary geometry, a few source-specific accents, and generous quiet areas. When two simplification levels both preserve basic recognition and action, prefer the one that better retains characteristic structure, modular rhythm, expression, or pattern without becoming illustrative tracing.
 
 ## Subject-background hierarchy
 
 The primary subject or subject group must carry the clearest silhouette, most complete local structures, strongest useful contrast, and highest concentration of informative secondary geometry. Background elements exist to establish support, scale, framing, direction, atmosphere, or counterweight; they should not receive equal descriptive attention.
 
-Simplify backgrounds by category rather than by isolated object. Merge repeated foliage, flowers, stones, architecture, debris, ground marks, and surface texture into a small number of larger masses or rhythms. Retain dominant axes, contact planes, framing shapes, and only the overlaps needed to locate the subject. Use fewer internal divisions, wider quiet intervals, restrained contrast, and sparse accents behind the subject.
+Simplify backgrounds by category rather than by isolated object. Merge repeated foliage, flowers, stones, architecture, debris, ground marks, and surface texture into one to three larger masses or rhythms whenever possible. Retain only dominant axes, contact planes, framing shapes, and the minimum overlaps needed to locate the subject. Remove internal divisions that merely describe texture or inventory objects. Use wide quiet intervals, restrained contrast, and sparse accents behind the subject.
 
 Preserve context when it is functional: a feeder used by an animal, a branch supporting a bird, the ground beneath feet, or a prop defining an action belongs to the subject system even if it sits spatially in the environment. Simplify peripheral context more aggressively. Do not isolate the subject in an arbitrary empty field when the original setting supplies necessary balance or meaning.
 
@@ -54,7 +54,7 @@ Run three tests:
 2. Substitution test: if the geometry could describe many unrelated sources, restore one or two source-specific relationships.
 3. Removal test: remove any line or plane whose absence does not weaken identity, balance, rhythm, or spatial logic.
 
-Prefer roughly 3-7 primary masses, a supporting set of secondary divisions, and only a few tertiary accents. These are calibration ranges, not quotas. A complex architectural scene may need more; a single object may need fewer.
+Prefer roughly 4-7 primary masses, a restrained supporting set of secondary divisions, and only a few tertiary accents. These are calibration ranges, not quotas. A complex architectural or mechanically articulated subject may need more secondary modules; a single simple object may need fewer.
 
 ## Geometric authorship
 
@@ -90,18 +90,17 @@ Judge the work as a composition, not merely a recognizable conversion. Establish
 
 The strongest area may carry denser intersections or higher contrast, while quieter zones provide rest. Preserve useful asymmetry from the source. Do not solve every subject with a centered emblem, uniform tessellation, generic polygon mesh, or arbitrary Bauhaus-like decoration.
 
-## Constructive recomposition
+## Constructive simplification
 
-Treat the photograph as visual evidence and raw material, not as a layout that must be copied. After extracting the subject's main masses, axes, modules, symmetry, rhythm, and negative spaces, allow deliberate formal editing inspired by constructivist composition and foundation-studio planar studies:
+Treat the photograph as visual evidence for the middle panel, not as a contour map. After extracting the subject's main masses, axes, modules, symmetry, rhythm, and negative spaces, simplify deliberately:
 
-- simplify several descriptive parts into one stronger mass;
-- split a weak mass into a small rhythmic sequence;
-- repeat, mirror, rotate, crop, interlock, overlap, or counterpose a source-derived module;
+- simplify weak descriptive parts into stronger masses while preserving a few identity-bearing subdivisions;
+- retain a controlled amount of repetition, mirroring, rotation, interlock, or overlap when it carries a genuine source relationship or characteristic modular rhythm;
 - exaggerate scale contrast, diagonal force, interval, or asymmetry when it clarifies the subject's energy;
-- relocate secondary elements to create a dominant focus, supporting rhythm, and counterweight;
+- select, omit, or consolidate secondary elements to create a dominant focus, supporting rhythm, and counterweight without erasing source-specific structure;
 - shape negative space as an active plane rather than leftover background.
 
-Recomposition must be motivated by the source's visual logic. Preserve subject identity, canonical orientation, essential action, functional relationships, and characteristic landmarks, but do not require photographic contour, exact spacing, literal scale, or complete one-for-one subdivision. A successful result feels authored and inevitable: freer than tracing, more specific than generic modernist decoration.
+Simplification must be motivated by the source's visual logic. Preserve subject identity, canonical orientation, essential action, functional relationships, characteristic landmarks, and a restrained amount of informative articulation, modular repetition, or pattern. Do not preserve photographic contour, surface texture, low-value ornament, exact spacing, or complete one-for-one subdivision. A successful result feels authored and inevitable: more distilled than conventional illustration, more structurally specific than a generic icon.
 
 Choose one primary compositional strategy per image—such as asymmetric balance, diagonal tension, radial expansion, modular repetition, figure-ground interlock, or nested enclosure—and at most one supporting strategy. Avoid combining every constructivist device at once.
 
@@ -111,7 +110,7 @@ Black lines describe boundaries, implied planes, axes, or movement. Favor clean 
 
 ## Bottom-panel color system
 
-Assign color according to visual role as well as source location. Dominant colors establish field and weight; accent colors mark focal tension; neutrals create rest. Give the subject clearer value separation and the most specific source-derived accents. Merge the background into broader, quieter fields with fewer value steps and less internal segmentation while preserving necessary support and counterweight. Preserve useful value contrast between adjacent subject shapes after removing outlines. Do not use a rainbow palette when the source is restrained, or mute a high-chroma source into generic tasteful pastels.
+Assign color to the exact closed regions established by the middle panel. Dominant colors establish field and weight; accent colors mark focal tension; neutrals create rest. Do not alter, redraw, subdivide, merge, shift, rotate, or add region boundaries during coloring. Give the subject clearer value separation and the most specific source-derived accents. Keep the background in the same simplified one to three broad regions established in the middle panel, using fewer value steps and restrained contrast. Preserve useful value contrast between adjacent shapes after removing outlines. Do not use a rainbow palette when the source is restrained, or mute a high-chroma source into generic tasteful pastels.
 
 Treat the source palette as a family of color anchors, not a paint-by-number obligation. Build an intentional dominant-support-accent system, usually with one dominant family, one supporting family, one chromatic or neutral counterweight, and one restrained focal accent. Fine adjustments may include:
 
@@ -126,11 +125,11 @@ Use color-composition principles associated with Albers-like interaction studies
 
 ## Transformation coherence
 
-The middle and bottom panels should be two developed states of the same formal proposition. The viewer should recognize the shared subject, axes, shape family, and compositional logic without requiring exact registration. Major identity-bearing masses should remain mappable; secondary modules may be recomposed to improve rhythm, balance, color interaction, or negative space.
+The middle and bottom panels are the same simplified drawing in exact registration. Every outer contour, internal boundary, overlap edge, module, and negative-space boundary must map one-to-one. The bottom differs only by removing black lines and filling those same regions with flat color and limited within-region tonal variation. No secondary module may be recomposed, added, removed, merged, split, shifted, rotated, or rescaled.
 
 Check every protected identity-bearing subject component. When line boundaries disappear in the color panel, retain its role through value contrast, color adjacency, overlap, a breathing gap, or a deliberate merged mass. No limb, support, appendage, focal feature, or characteristic accessory may vanish accidentally because neighboring color fields merge.
 
-Map protected local wholes by identity and function rather than exact subdivision. In particular, verify every head/face unit and each foot/support independently. Their enclosing masses, attachments, essential landmarks, and supporting negative spaces must survive the line-to-color transition even when internal modules are recomposed.
+Map protected local wholes by identity and function as well as their locked middle-panel subdivision. In particular, verify every head/face unit and each foot/support independently. Their enclosing masses, attachments, essential landmarks, informative internal regions, and supporting negative spaces must survive the line-to-color transition unchanged.
 
 ## Art-historical lenses
 
@@ -176,6 +175,7 @@ Use the chosen lens to improve one or two decisions—such as balance, rhythm, s
 - Excessive acute triangles, needle points, sawtooth silhouettes, or brittle polygon meshes on an organic subject.
 - Over-smoothed curves that erase joints, facial structure, material seams, expression, stance, or other identity-bearing contour events.
 - A recognizable but compositionally inert conversion with no dominant focus, supporting rhythm, counterweight, or shaped negative space.
+- An over-reduced subject that reads as a generic icon because characteristic structural bays, joints, facial divisions, wing bands, petal groupings, material seams, or modular rhythms were removed.
 - Background foliage, debris, architecture, repeated objects, or surface texture described with equal or greater density and contrast than the subject.
 - A background simplified into an unrelated empty field that removes the subject's support, action, scale, or essential spatial context.
 - Dark color boundaries that function as hidden outlines.
