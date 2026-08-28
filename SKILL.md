@@ -89,7 +89,7 @@ Do not treat these counts as rigid quotas. Increase complexity for layered scene
 
 Extract a compact palette from perceptually important source colors, not merely the most frequent pixels. Treat these colors as anchors rather than immutable samples. Harmonize hue, value, saturation, temperature, and proportion when this improves hierarchy, rhythm, adjacency, or emotional tone. Preserve enough source color identity to connect the reconstruction to the photograph, but allow restrained art-directed shifts, chromatic neutrals, and more coherent dominant-support-accent relationships. Avoid arbitrary recoloring and fashionable palettes unrelated to the source.
 
-Always read [references/aesthetic-criteria.md](references/aesthetic-criteria.md) before composing the generation prompt. It contains complexity checks and art-historical direction.
+Always read [references/aesthetic-criteria.md](references/aesthetic-criteria.md) before composing the generation prompt. It contains complexity checks and art-historical direction. Also read and follow [references/production-workflow.md](references/production-workflow.md); its shape budget, staged-generation sequence, and stop conditions are mandatory, including for batch jobs.
 
 ## Plan the Reconstruction Before Prompting
 
@@ -101,7 +101,11 @@ Do not ask the image generator to "simplify," "geometrize," or "make line art" w
 4. **Construction operations:** name the useful overlap, tangency, alignment, mirroring, repetition, intersection, subtraction, rotation, or scale relationship between those primitives. The result must read as assembled geometry, not as a traced silhouette with decorative divisions.
 5. **Transformation map:** identify the final simplified closed shapes, axes, modules, overlaps, and negative spaces in the middle panel. Treat that geometry as a locked template for the bottom panel. The bottom may assign color, value, and limited tonal variation to those same regions, but may not merge, split, shift, scale, rotate, add, remove, or redraw their boundaries.
 
-Treat this plan as a hard prerequisite. If the prompt cannot name the canonical view, the primary primitives, and their construction relationships concretely, revise the plan before generating.
+Add a sixth required item:
+
+6. **Shape budget and deletion list:** choose a subject-appropriate maximum for primary masses, secondary shapes, repeated modules, background regions, and background axes using `production-workflow.md`. Name the photographic details that must disappear. Treat the budget as a ceiling, not a target. Do not generate until every retained module has a structural purpose and the deletion list is explicit.
+
+Treat this plan as a hard prerequisite. If the prompt cannot name the canonical view, primary primitives, construction relationships, shape budget, and deletion list concretely, revise the plan before generating.
 
 Use a **subject-and-primitive-first prompt order**: identify the subject, chosen source-appropriate orthographic view, standard forms, and inherent geometric rules before mentioning texture, background, palette, or style. Preserve the photographed orientation, action, and directional logic while rebuilding perspective-dependent relationships in the selected orthographic view.
 
@@ -123,7 +127,9 @@ The result should feel like an authored foundation-studio or visual-communicatio
 
 ## Generate and Review
 
-Write the generation prompt in concrete visual terms. State the 2:3 canvas, three equal 2:1 edge-to-edge panels, unchanged source-photo top panel, selected source-appropriate orthographic transformation, aggressive subject/background simplification, exact one-to-one middle-to-bottom shape registration, chosen compositional strategy, standard-shape vocabulary, applicable symmetry or repetition rules, middle-panel no-fill rule, bottom-panel no-outline rule, and palette-harmonization logic. Ask for a single finished image, not three unrelated outputs.
+Use the staged workflow in `production-workflow.md`. Build and approve the middle-panel geometric master before producing the color reconstruction. Derive the bottom panel from that locked master with a template-preserving edit or deterministic region coloring whenever available. Assemble the unchanged source photograph and approved transformed panels deterministically whenever practical; do not ask a generative model to recreate the source photograph. A one-pass triptych is a fallback only when the available image tool cannot support staged references or assembly, and it remains subject to every review gate.
+
+Write generation prompts in concrete visual terms. State the selected source-appropriate orthographic transformation, exact shape budget, explicit deletion list, standard-shape vocabulary, applicable symmetry or repetition rules, subject integrity envelope, middle-panel no-fill rule, bottom-panel no-outline rule, background limit, and palette-harmonization logic. For a one-pass fallback, also state the 2:3 canvas, three equal 2:1 edge-to-edge panels, unchanged source-photo top panel, and exact one-to-one middle-to-bottom registration. Ask for one coherent final artifact, not unrelated outputs.
 
 Order the prompt by priority so the generator does not substitute photographic fidelity for analysis:
 
@@ -136,7 +142,7 @@ Order the prompt by priority so the generator does not substitute photographic f
 
 Do not overload the prompt with low-priority background detail. When constraints compete, simplify, soften, or omit background information before weakening the chosen orthographic view, subject emphasis, inherent geometric rules, or primitive construction.
 
-After generation, inspect the result. Retry when any essential invariant fails:
+After every stage, inspect the result. A failed gate is a stop condition: reject the artifact, rebuild from the construction plan, and retry the current image before coloring, assembling, saving, delivering, or proceeding to the next image. This rule applies to batch tasks; do not accept first-pass failures merely because other images are complete. Retry when any essential invariant fails:
 
 - the top is not the actual supplied source, its viewpoint or perspective changes, or it is cropped unsafely, warped, extended, retouched, relit, redrawn, or visibly restyled;
 - the final canvas is not 2:3, a panel is not 2:1, or an outer white border remains;
